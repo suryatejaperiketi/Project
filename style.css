@@ -1,0 +1,102 @@
+  /* Basic styling */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+
+body{
+    overflow-x: hidden;
+
+}
+video{
+    display: block;
+    width: 300px;
+    object-fit: cover;
+}
+.conn{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: rgb(218, 18, 51);
+}
+.arrow {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 10px;
+   border:none;
+   padding: 0%;
+   text-decoration: none;
+   background: none;
+   
+
+}
+.arrow:hover{
+    transform: scale(1.0);
+    text-transform: capitalize;
+    padding: 0%;
+    background-color: #494848;
+}
+
+
+.card img:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+.container .carousel,.flow{
+    font-size: 0%;
+    padding-bottom: 0%;
+}
+.container-fluid {
+    padding: 0; /* Removes padding from the container */
+}
+
+.carousel {
+    margin: 0; /* Removes margin from the carousel */
+}
+
+.carousel-item {
+    padding: 0; /* Ensures no padding inside carousel items */
+}
+
+/* Optional: Set the height of the carousel to ensure it doesn't cause extra space */
+.carousel-inner {
+    height: 100vh; /* This keeps the carousel full height */
+}
+
+.textcolor{
+    color: #787474;
+}
+/* Custom black background and white text for navbar */
+.custom-bg-black {
+    background-color: rgb(96, 93, 93) !important;
+  }
+  
+  /* Make nav items white */
+  .custom-bg-black .navbar-nav .nav-link {
+    color: white !important; /* Ensure text is white */
+  }
+  
+  /* Optional: Change the active nav item to have a white color as well */
+  .custom-bg-black .navbar-nav .nav-link.active {
+    color: white !important;
+  }
+  
+  /* Optional: Change the dropdown items' text color */
+  .custom-bg-black .navbar-nav .dropdown-menu .dropdown-item {
+    color: black !important; /* Black text on the dropdown items */
+  }
+  
+  /* Optional: Change the dropdown item on hover to white for better contrast */
+  .custom-bg-black .navbar-nav .dropdown-menu .dropdown-item:hover {
+    background-color: #f8f9fa; /* Light background for better contrast */
+    color: black; /* Keep text black on hover */
+  }
+  
